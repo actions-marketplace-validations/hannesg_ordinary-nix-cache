@@ -10,7 +10,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@actions/cache": "^4.0.5",
+    "@actions/cache": "^4.1.0",
     "@actions/core": "^1.11.1"
   }
 }
