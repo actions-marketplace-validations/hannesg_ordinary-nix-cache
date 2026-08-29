@@ -7,7 +7,7 @@
 
     devShell.x86_64-linux =
       let pkgs = import nixpkgs { system = "x86_64-linux"; };
-      in pkgs.mkShellNoCC { packages = with pkgs; [ bun nodejs_20 ]; };
+      in pkgs.mkShellNoCC { packages = with pkgs; [ bun nodejs ]; };
 
   };
 }
